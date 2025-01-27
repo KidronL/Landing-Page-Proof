@@ -1,0 +1,50 @@
+root {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin-left: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    height: 600px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+.hero .hero-content {
+    align-self: start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hero .hero-image {
+    
+}
